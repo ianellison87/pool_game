@@ -4,8 +4,6 @@ function Stick(){
 
 Stick.prototype.update = function(){
 
-  //Testing only
-  this.position.x++;
 
 }
 
