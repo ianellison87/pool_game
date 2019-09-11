@@ -33,3 +33,7 @@ Vector2.prototype.mult = function(scalar){
 Vector2.prototype.length = function(){
   return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
 }
+
+Vector2.prototype.distFrom = function(vector){
+  return this.subtract(vector).length();
+}
